@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "email": "abc@gmail.com",
+      "password": "abc123",
+      "name": "abc",
+      "id": 1
+    },
+    {
+      "name": "janak",
+      "email": "janak@gmail.com",
+      "password": "janak123",
+      "id": 2
+    },
+    {
+      "name": "bharadwaj",
+      "email": "bharadwaj@gmail.com",
+      "password": "bharadwaj",
+      "id": 3
+    }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Burger King",
+      "contact": "1234",
+      "address": "kukatpally, hyderabad"
+    },
+    {
+      "name": "KFC",
+      "contact": "4321",
+      "address": "uppal, hyderabad",
+      "id": 2
+    },
+    {
+      "name": "Nizam's Kitchen",
+      "contact": "13425",
+      "address": "hafizpet, hyderabad",
+      "id": 3
+    },
+    {
+      "name": "Lotus Grand",
+      "contact": "9876",
+      "address": "nampally, hyderabad",
+      "id": 4
+    },
+    {
+      "name": "Kritunga",
+      "contact": "123456",
+      "address": "kphb, hyderabad",
+      "id": 5
+    },
+    {
+      "name": "Paradise",
+      "contact": "123456",
+      "address": "secunderabad, hyderabad",
+      "id": 6
+    },
+    {
+      "name": "Ayyappa tiffins",
+      "contact": "123456789",
+      "address": "lingampally, patancheru",
+      "id": 7
+    }
+  ]
+}
