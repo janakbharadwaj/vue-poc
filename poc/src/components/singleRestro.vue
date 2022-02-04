@@ -14,22 +14,22 @@ import axios from "axios"
 export default {
   data(){
       return{
-          id:this.$route.params.id,
-          restaurant:{}
-        }
+        id:this.$route.params.id,
+        restaurant:{}
+      }
     },
     async created(){
-        let data = await axios.get(`http://localhost:3000/restaurants/${this.id}`)
-        //console.log(data.data);
-        this.restaurant = data.data
+      let data = await axios.get(`http://localhost:3000/restaurants/${this.id}`)
+      //console.log(data.data);
+      this.restaurant = data.data
     },
     methods:{
-        goBack(){
-            this.$router.push({name:"home"})
-        },
-        updateRestro(){
-          this.$router.push({name:"updateRestro"})
-        }
+      goBack(){
+        this.$router.push({name:"home"})
+      },
+      updateRestro(){
+        this.$router.push({name:"updateRestro"})
+      }
     }
 }
 </script>
