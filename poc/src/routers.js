@@ -4,10 +4,12 @@ import login from "./components/login.vue"
 import addRestro from "./components/addRestro.vue"
 import updateRestro from "./components/updateRestro.vue"
 import singleRestro from "./components/singleRestro.vue"
+import mainPage from "./components/mainPage.vue"
 
 
 export default[
-    {name:"home", path:'/', component:home},
+    {name:"mainPage", path:'/',component:mainPage},
+    {name:"home", path:'/home', component:home},
     {name:"signUp", path:'/sign-up', component:signUp},
     {name:"login", path:'/login', component:login},
     {name:"addRestro", path:'/addRestro', component:addRestro},

@@ -1,6 +1,6 @@
 <template>
   <div class="nav">
-    <router-link to="/">home</router-link>
+    <router-link to="/home">home</router-link>
     <router-link to="/addRestro">add restaurant</router-link>
     <a v-on:click="logout" href="#">logout</a>
   </div>

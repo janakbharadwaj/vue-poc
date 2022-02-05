@@ -23,7 +23,7 @@
     {
       "id": 1,
       "name": "Burger King",
-      "contact": "1234",
+      "contact": "9999",
       "address": "kukatpally, hyderabad"
     },
     {
@@ -51,9 +51,9 @@
       "id": 6
     },
     {
-      "name": "Ayyappa tiffins",
-      "contact": "123456789",
-      "address": "lingampally, patancheru",
+      "name": "oo",
+      "contact": "oo",
+      "address": "oo",
       "id": 7
     }
   ]
